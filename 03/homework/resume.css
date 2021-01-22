@@ -22,6 +22,9 @@ table {
     height: auto;
 }
 
+.body {
+    background-color: beige;
+}
 .skype {
     width: 20px;
     height: auto;
