@@ -5,9 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5660994714.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <a href="/"><img src="./images/logo.png" alt="Productly"></a>
+            </div>
+            <nav class="main-navigation">
+                <ul class="nav-links">
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Customers</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Resources</a></li>
+                </ul>
+                <ul class="nav-buttons">
+                    <li><a href="#" class="btn btn-ghost">Sign In</a></li>
+                    <li><a href="#" class="btn btn-orange">Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
     <main>
         <section class="header">
             <div class="container-full">
@@ -21,7 +43,7 @@
                     </div>
                     <div class="buttons">
                         <button class="shop-now-button">Get started</button>
-                        <button class="watch-video-button">Watch the Video</button>
+                        <button class="watch-video-button"><i class="fas fa-play"></i>Watch the Video</button>
                     </div>
                 </div>
                 <div class="first-image-container">
@@ -31,7 +53,46 @@
         </section>
         <section class="feature">
             <h2 class="we-design">We design tools to unveil<br>your superpowers</h2>
-        </section>
+            <div class="card">
+                <div class="stat-item">
+                    <div class="stat-item__icon icon-first-click">
+                        <i class="fas fa-mouse-pointer"></i>
+                    </div>
+                    <div class="stat-item__text">
+                        <h2>First click tests</h2>
+                        <p>While most people enjoy casino gambling,</p>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-item__icon icon-design-survey">
+                    </div>
+                    <div class="stat-item__text">
+                        <h2>Design surveys</h2>
+                        <p>Sports betting, lottery and bingo playing for the fun</p>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-item__icon icon-preference-tests">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <div class="stat-item__text">
+                        <h2>Preference tests</h2>
+                        <p>The Myspace page defines the individual.</p>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-item__icon icon-five-second">
+                        <i class="fas fa-hourglass-half"></i>
+                    </div>
+                    <div class="stat-item__text">
+                        <h2>Five second tests</h2>
+                        <p>Personal choices and the overall personality of the person. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
     </main>
 </body>
 </html>
