@@ -244,10 +244,10 @@ body {
     text-align: center;
 }
 
-.card:last-child{
+/* .card:last-child{ */
     /* padding-right: 0; */
     /* height: 204px; */
-}
+/* } */
 
 .stat-item {
     display: inline-block;
@@ -355,4 +355,70 @@ body {
     padding-bottom: 210px;
     margin: 0 auto;
     text-align: center;
+}
+
+
+.effortless-validation {
+    float: left;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.effortless-validation-container {
+    width: 1126px;
+    height: 496px;
+    margin: 0 auto;
+}
+
+.effortless-validation-left {
+    float: left;
+    /* display: inline-block; */
+    font-family: Poppins, sans-serif;
+    width: 486px;
+    height: 531px;
+    padding-top: 26px;
+    padding-bottom: 17px;
+}
+
+.eff-val-for {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #544837;
+}
+
+.design-proff {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    color:#2F281E;
+}
+
+.my-space {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #544837;;
+}
+
+.stat-eff-val-text h2 {
+    padding-top: 25px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    color:#2F281E;
+}
+
+.stat-eff-val-text p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #544837;;
+}
+
+.effortless-validation-right {
+    float: right;
+    width: 520px;
+    height: 574px;
 }
