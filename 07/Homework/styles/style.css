@@ -61,7 +61,7 @@ body {
     width: 1400px;
     height: 78px;
     margin-top: 20px;
-    padding: 0px 143px;
+    padding: 0px 137px;
     margin: 0 auto;
 }
 
@@ -188,6 +188,7 @@ body {
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 700;
+    letter-spacing: 0.05em;
 }
 
 .watch-video-button {
@@ -214,6 +215,7 @@ body {
     float: left;
     width: 100%;
     margin: 0 auto;
+    padding-top: 110px;
 }
  
 .we-design {
@@ -227,44 +229,66 @@ body {
 }
 
 .card {
-    float: left;
-    /* text-align: left; */
-    width: 100%;
+    width: 1095px;
     height: 204px;
-    margin-left: 161px;
-    /* padding-left: 161px; */
-    /* padding-right:144px; */
-    /* display: inline-block; */
+    /* width: 1126px; */
+    /* margin: 0 auto; */
+    /* padding: 20px 0; */
+    display: inline-flex;
+    /* display: inline; */
 }
 
-/* .card:last-child{ */
+.card_feature {
+    width: 1126px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card:last-child{
     /* padding-right: 0; */
-/* } */
+    /* height: 204px; */
+}
 
 .stat-item {
     display: inline-block;
     width: 240px;
-    height: 204px;
+    height: 250px;
     /* padding-right:44px; */
 }
+
+.stat-item:last-child{
+    height: 204px;
+}
+
+.stat-item:nth-child(1){
+    margin-right: 46px;
+}
+
+.stat-item:nth-child(2){
+    margin-right: 45px;
+}
+.stat-item:nth-child(3){
+    margin-right: 44px;
+}
+
 
 .stat-item__icon {
     width: 50px;
     height: 50px;
-    border-radius: 19px;
-    line-height: 50%;
+    /* border-radius: 19px; */
+    /* line-height: 50%; */
     text-align: center;
-    background-repeat: no-repeat;
-    background-position: center;
-    float: left;
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* float: left; */
 }
 
 .stat-item__icon.icon-first-click{
     background: #7752BE;
     border-radius: 19px;
     font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
+    /* font-style: normal; */
+    /* font-weight: normal; */
     font-size: 16px;
     text-align: center;
     line-height: 50px;
@@ -279,28 +303,31 @@ body {
 .stat-item__icon.icon-preference-tests{
     background: #F03E3D;
     border-radius: 19px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    text-align: center;
+    /* font-style: normal; */
+    /* font-weight: normal; */
+    /* font-size: 16px; */
+    /* text-align: center; */
     line-height: 50px;
     color: #FFFFFF;
+
 }
 
 
 .stat-item__icon.icon-five-second{
     background: #4DADF7;
     border-radius: 19px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    text-align: center;
+    /* font-style: normal; */
+    /* font-weight: normal; */
+    /* font-size: 16px; */
+    /* text-align: center; */
     line-height: 50px;
     color: #FFFFFF;
+    margin-right: 45px;
+
 }
 
 .stat-item__text {
-    display: inline-block;
+    /* display: inline-block; */
     font-family: Poppins, sans-serif;
     color:#2F281E;
     text-align: left;
@@ -312,6 +339,7 @@ body {
     font-weight: 600;
     font-size: 22px;
     line-height: 33px;
+    display: inline-block;
 }
 
 .stat-item__text p {
@@ -320,4 +348,11 @@ body {
     font-size: 16px;
     line-height: 26px;
     color: #544837;
-}  
+} 
+
+.sign-up-now {
+    padding-top: 34px;
+    padding-bottom: 210px;
+    margin: 0 auto;
+    text-align: center;
+}
