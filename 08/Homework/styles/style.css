@@ -357,7 +357,6 @@ body {
     text-align: center;
 }
 
-
 .effortless-validation {
     float: left;
     width: 100%;
@@ -421,4 +420,198 @@ body {
     float: right;
     width: 520px;
     height: 574px;
+}
+
+.product-managers {
+    float: left;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 101px;
+}
+
+.product-managers-container {
+    width: 1121px;
+    height: 521px;
+    margin: 0 auto;
+}
+
+
+.product-managers-left {
+    float: left;
+    /* display: inline-block; */
+    /* font-family: Poppins, sans-serif; */
+    padding-right: 102.38px;
+    width: 535px;
+    height: 511px;
+    /* padding-top: 26px; */
+    /* padding-bottom: 17px; */
+}
+
+.easier-decision {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #544837;
+}
+
+.product-manager {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    padding-top: 2px;
+    color:#2F281E;
+}
+
+.my-space-prod {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    padding-top: 22px;
+    color: #544837;;
+}
+
+.stat-prod-man-text p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #544837;;
+}
+
+.product-managers-right {
+    float: right;
+    width: 486px;
+    height: 427px;
+}
+
+.card-prod-man {
+    width: 1095px;
+    height: 204px;
+}
+
+.card-prod-man-stats {
+    width: 450px;
+    text-align: left;
+}
+
+.stat-item-prod-man {
+    display: inline-flex;
+    line-height: 52px;
+    padding-top: 30px;
+}
+
+.stat-item-prod-man__icon {
+    width: 35px;
+    height: 35px;
+    /* border-radius: 19px; */
+    line-height: 50%;
+    text-align: center;
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* float: left; */
+}
+
+.stat-item-prod-man__icon.icon-check{
+    background: #FF9900;
+    border-radius: 13.85px;
+    /* font-style: normal; */
+    /* font-weight: normal; */
+    /* font-size: 16px; */
+    /* text-align: center; */
+    line-height: 50px;
+    color: #FFFFFF;
+    margin-right: 30px;
+
+}
+
+.stat-item-prod-man__text {
+    /* display: inline-block; */
+    font-family: Poppins, sans-serif;
+    color:#2F281E;
+    text-align: left;
+    /* padding-left: 70px; */
+}
+
+.fa-check {
+    width: 16px;
+    height: 12px;
+    /* border-radius: 1.125px; */
+    padding-right: 8.5px;
+}
+
+.marketers {
+    float: left;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 104.96px;
+}
+
+.marketers-container {
+    width: 1110px;
+    height: 609px;
+    padding-top: 104.96px;
+
+    margin: 0 auto;
+}
+
+.marketers-left {
+    float: left;
+    /* display: inline-block; */
+    font-family: Poppins, sans-serif;
+    width: 486px;
+    /* height: 531px;
+    padding-top: 26px;
+    padding-bottom: 17px; */
+}
+
+.marketers-title {
+    height: 181px;
+    padding-top: 39px;
+}
+
+.optimisation-for {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #544837;
+}
+
+.marketers-text {
+    padding-top: 3px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    color:#2F281E;
+}
+
+.few-title {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    padding-top: 22px;
+    color: #544837;;
+}
+
+.stat-marketers-text h2:nth-child(1) {
+    padding-top: 30px;
+}
+.stat-marketers-text h2 {
+    padding-top: 25px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    color:#2F281E;
+}
+
+.stat-marketers-text p{
+    padding-top: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #544837;;
+}
+
+.marketers-right {
+    float: right;
+    width: 542px;
+    height: 609px;
 }
