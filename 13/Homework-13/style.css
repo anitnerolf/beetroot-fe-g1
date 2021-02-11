@@ -1,0 +1,44 @@
+body {
+
+}
+
+.conatiner {
+    margin: 0 auto;
+    width: 100%;  
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.svg-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-sceptic-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.second-sceptic-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.calculator-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.crown-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
